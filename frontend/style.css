@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: antiqueWhite;
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,4 +9,30 @@ h1 {
     color: #007BFF;
     text-align: center;
     margin-top: 20px;
+}
+
+.card{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+
+}
+
+.card button{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
