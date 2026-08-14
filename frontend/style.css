@@ -2,7 +2,7 @@ body {
     background-color: antiqueWhite;
     color: #333;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 h1 {
@@ -35,4 +35,22 @@ h1 {
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.navbar{
+    text-align: center;
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: grey;
+}
+.navbar a:hover{
+    color: black;
 }
